@@ -52,7 +52,6 @@ Project.init({
   },
   repoLink: {
     type: Sequelize.STRING,
-    allowNull: false
   }
 }, {
   sequelize,
@@ -76,7 +75,7 @@ Bug.init({
   }
 }, {
   sequelize,
-  modelName: 'projects'
+  modelName: 'bugs'
 });
 
 User.hasMany(Bug);
