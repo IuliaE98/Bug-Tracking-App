@@ -57,7 +57,7 @@ Create user
 [{
 	"message": "Invalid user payload."
 }]
- ```
+```
 ---
 Update user
 #### Request
@@ -124,7 +124,7 @@ Create project
 [{
     "message": "Invalid project payload."
 }]
- ```
+```
 ---
 Update project
 #### Request
@@ -191,7 +191,7 @@ Create bug
 [{
     "message": "Invalid bug payload."
 }]
- ```
+```
 ---
 Update bug
 #### Request
