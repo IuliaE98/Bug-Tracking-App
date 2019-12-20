@@ -13,17 +13,17 @@ Get all users
 #### Response
 ```json
 [{
-	“firstName”: “User”,
-	“lastName”: “User”,
-	“email”: “user@example.com”,
-	“password”: “password”,
+	"firstName": "User",
+	"lastName": "User",
+	"email": "user@example.com",
+	"password": "password",
 	"role": "user"
 },
 {
-	“firstName”: “User2”,
-	“lastName”: “User2”,
-	“email”: “user2@example.com”,
-	“password”: “password2”,
+	"firstName": "User2",
+	"lastName": "User2",
+	"email": "user2@example.com",
+	"password": "password2",
 	"role": "tester"
 }]
 ```
@@ -34,10 +34,10 @@ Get an user by email
 #### Response
 ```json
 [{
-	“firstName”: “User”,
-	“lastName”: “User”,
-	“email”: “user@example.com”,
-	“password”: “password”,
+	"firstName": "User",
+	"lastName": "User",
+	"email": "user@example.com",
+	"password": "password",
 	"role": "user"
 }]
 ```
@@ -49,13 +49,13 @@ Create user
 ##### 201
 ```json
 [{
-	message: 'User added successfully.'
+	"message": "User added successfully."
 }]
 ```
 ##### 400
 ```json
 [{
-	message: 'Invalid user payload.'
+	"message": "Invalid user payload."
 }]
  ```
 ---
@@ -65,7 +65,7 @@ Update user
 #### Response
 ```json
 [{
-	message: "User updated succesfully"
+    "message": "User updated succesfully"
 }]
 ```
 ---
@@ -75,7 +75,7 @@ Delete user
 #### Response
 ```json
 [{
-	message: "User succesfully deleted"
+	"message": "User succesfully deleted"
 }]
 ```
 
@@ -86,14 +86,14 @@ Get all projects
 #### Response
 ```json
 [{
-	“identifier”: “1”,
-	“name”: “project”,
-	“repoLink”: “https://git.com/repo”
+	"identifier": "1",
+	"name": "project",
+	"repoLink": "https://git.com/repo"
 },
 {
-	“identifier”: “2”,
-	“name”: “project2”,
-	“repoLink”: “https://git.com/repo2”
+	"identifier": "2",
+	"name": "project2",
+	"repoLink": "https://git.com/repo2"
 }]
 ```
 ---
@@ -103,9 +103,9 @@ Get an project by id
 #### Response
 ```json
 [{
-	“identifier”: “1”,
-	“name”: “project”,
-	“repoLink”: “https://git.com/repo”
+	"identifier": "1",
+	"name": "project",
+	"repoLink": "https://git.com/repo"
 }]
 ```
 ---
@@ -116,13 +116,13 @@ Create project
 ##### 201
 ```json
 [{
-	message: 'Project added successfully.'
+	"message": "Project added successfully."
 }]
 ```
 ##### 400
 ```json
 [{
- message: 'Invalid project payload.'
+    "message": "Invalid project payload."
 }]
  ```
 ---
@@ -132,7 +132,7 @@ Update project
 #### Response
 ```json
 [{
-	message: 'Project updated successfully.'
+	"message": "Project updated successfully."
 }]
 ```
 ---
@@ -142,7 +142,7 @@ Delete project
 #### Response
 ```json
 [{
-	message: "Project succesfully deleted"
+	"message": "Project succesfully deleted"
 }]
 ```
 
@@ -153,14 +153,14 @@ Get all bugs
 #### Response
 ```json
 [{
-	“identifier”: “1”,
-	“name”: “Big bug”,
-	“priority”: “minor”
+	"identifier": "1",
+	"name": "Big bug",
+	"priority": "minor"
 },
 {
-	“identifier”: “2”,
-	“name”: “Bigger bug”,
-	“priority”: “critical”
+	"identifier": "2",
+	"name": "Bigger bug",
+	"priority": "critical"
 }]
 ```
 ---
@@ -170,9 +170,9 @@ Get an bug by id
 #### Response
 ```json
 [{
-	“identifier”: “2”,
-	“name”: “Bigger bug”,
-	“priority”: “critical”
+	"identifier": "2",
+	"name": "Bigger bug",
+	"priority": "critical"
 }]
 ```
 ---
@@ -183,13 +183,13 @@ Create bug
 ##### 201
 ```json
 [{
-	message: 'Bug added successfully.'
+	"message": "Bug added successfully."
 }]
 ```
 ##### 400
 ```json
 [{
- message: 'Invalid bug payload.'
+    "message": "Invalid bug payload."
 }]
  ```
 ---
@@ -199,7 +199,7 @@ Update bug
 #### Response
 ```json
 [{
-	message: 'Bug updated successfully.'
+	"message": "Bug updated successfully."
 }]
 ```
 ---
@@ -209,6 +209,6 @@ Delete bug
 #### Response
 ```json
 [{
-	message: "Bug succesfully deleted"
+	"message": "Bug succesfully deleted"
 }]
 ```
