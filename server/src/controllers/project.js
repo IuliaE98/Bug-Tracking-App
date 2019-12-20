@@ -43,7 +43,7 @@ const deleteProject = async (req, res, next) => {
     const id = req.params.id;
     try {
         const result = await projectService.deleteOne(id)
-        res.status(200).send(result);
+        res.status(200).send("Project deleted successfully");
     } catch (err) {
         res.status(500).send({
             message: `Error occured: ${err.message}`

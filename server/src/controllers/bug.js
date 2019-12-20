@@ -54,7 +54,7 @@ const deleteBug = async (req, res, next) => {
     const id = req.params.id;
     try {
         const result = await bugService.deleteOne(id)
-        res.status(200).send(result);
+        res.status(200).send("Bug succesfully deleted");
     } catch (err) {
         res.status(500).send({
             message: `Error occured: ${err.message}`
