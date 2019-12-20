@@ -42,7 +42,7 @@ const updateUser = async (req, res, next) => {
     const email = req.params.email;
     try {
         const result = await userService.updateOne(email, user)
-        res.status(200).send(result);
+        res.status(200).send("User updated succesfully");
     } catch (err) {
         res.status(500).send({
             message: `Error occured: ${err.message}`

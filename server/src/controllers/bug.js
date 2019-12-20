@@ -42,7 +42,7 @@ const updateBug = async (req, res, next) => {
     const id = req.params.id;
     try {
         const result = await bugService.updateOne(id, bug)
-        res.status(200).send(result);
+        res.status(200).send("Bug updated succesfully");
     } catch (err) {
         res.status(500).send({
             message: `Error occured: ${err.message}`

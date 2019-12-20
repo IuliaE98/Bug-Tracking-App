@@ -32,6 +32,9 @@ User.init({
   },
   role: {
     type: Sequelize.STRING,
+  },
+  password: {
+    type: Sequelize.STRING,
     allowNull: false
   }
 }, {

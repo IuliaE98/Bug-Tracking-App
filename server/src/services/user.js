@@ -34,6 +34,7 @@ const user = {
             const newUser = await User.update({
                 firstName: user.firstName,
                 lastName: user.lastName,
+                password: user.password,
                 role: user.role,
             },
                 {
