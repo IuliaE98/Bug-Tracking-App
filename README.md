@@ -68,16 +68,6 @@ Update user
     "message": "User updated succesfully"
 }]
 ```
----
-Delete user
-#### Request
-`DELETE /user/:email`
-#### Response
-```json
-[{
-	"message": "User succesfully deleted"
-}]
-```
 
 ## Project
 Get all projects
