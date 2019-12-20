@@ -31,7 +31,7 @@ const updateProject = async (req, res, next) => {
     const id = req.params.id;
     try {
         const result = await projectService.updateOne(id, project)
-        res.status(200).send(result);
+        res.status(200).send("Project updated successfully");
     } catch (err) {
         res.status(500).send({
             message: `Error occured: ${err.message}`
