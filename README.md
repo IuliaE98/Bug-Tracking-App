@@ -1,6 +1,6 @@
 # Bughunter
 
-This is a project to help you track your bugs in your project. It was made by Racoviță Iulia-Elena, Rotaru Malina-Petruta, Sfetcu Andreea, Sfîrloagă Bianca and Simioniuc Beatrice-Cătălina.
+This is a project to help you track your bugs in your project.
 
 # Technologies used
 Bughunter is using React.js for frontend and Express.js for backend. It's also using MySQL for the database and Sequelize as ORM.
